@@ -173,20 +173,22 @@ Rotates between 4 screens every 2 seconds:
 
 | Component | Arduino Pin |
 |-----------|-------------|
-| DHT11 | D2 |
-| Ultrasonic Trig | D3 |
-| Ultrasonic Echo | D4 |
-| IR Receiver | D5 |
-| Piezo Buzzer | D6 |
-| RGB LED Red | D9 |
-| RGB LED Green | D10 |
-| RGB LED Blue | D11 |
-| DC Motor | D12 |
+| IR Reciever | D2 |
+| Motor Enable| D3 |
+| Motor Input 1 | D4 
+| Motor Input 2 | D5 |
+| RGB LED Red | D6 |
+| RGB LED Green | D7 |
+| RGB LED Blue | D8 |
+| Piezo Buzzer | D9 |
+| Ultrasonic Trig | D10 |
+| Ultrasonic Echo | D11 |
+| DHT11 Data | D12 |
 | MQ-2 Gas | A0 |
 | LCD SDA | A4 |
 | LCD SCL | A5 |
-| MPU6050 SDA | A4 (same) |
-| MPU6050 SCL | A5 (same) |
+| MPU6050 SDA | D18 (SDA) |
+| MPU6050 SCL | D19 (SCL) |
 | MPU6050 AD0 | GND |
 
 ---
@@ -209,3 +211,4 @@ If you encounter issues, check:
 4. Wiring connections
 
 Good luck with your UAV project! 🚁
+

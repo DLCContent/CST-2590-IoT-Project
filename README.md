@@ -210,6 +210,5 @@ If you encounter issues, check:
 3. ThingSpeak channel graphs
 4. Wiring connections
 
-Good luck with your UAV project! 🚁
 
 
